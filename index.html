@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QavoniX Luxe Unisex Salon | Premium Demo</title>
+    <meta name="description" content="Experience ultra-luxury grooming at QavoniX Luxe Unisex Salon. Premium haircut, beard styling, hair spa, and skin care.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Phosphor Icons (Sleek Icons) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="shimmer"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="glass-nav">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <div class="logo-main"><span class="gold-text">QavoniX</span> Luxe</div>
+                <div class="logo-subtext">by QavoniX Studio</div>
+            </a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#reviews">Reviews</a>
+            </div>
+            <a href="#booking" class="btn btn-gold outline">Book Now</a>
+            <div class="mobile-menu-btn">
+                <i class="ph ph-list"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero">
+        <!-- Background image is set in CSS or inline -->
+        <div class="hero-bg" style="background-image: url('assets/hero.png');"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title reveal-text">QavoniX Luxe <br><span class="gold-text">Unisex Salon</span></h1>
+            <p class="hero-subtitle fade-in-up">Luxury Grooming, Redefined</p>
+            <p class="hero-subtext fade-in-up">by QavoniX Studio</p>
+            <div class="hero-ctas fade-in-up delay-1">
+                <a href="#booking" class="btn btn-gold glow-effect">Book Appointment</a>
+                <a href="#services" class="btn btn-transparent">Explore Services</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="ph ph-caret-down"></i>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container section-grid">
+            <div class="about-content slide-in-left">
+                <h2 class="section-title">The Art of <span class="gold-text">Grooming</span></h2>
+                <p class="body-text">
+                    Welcome to QavoniX Luxe, a sanctuary of style and sophistication. We blend modern aesthetic sensibilities with timeless elegance to provide an ultra-premium grooming experience tailored for the modern individual.
+                </p>
+                <div class="trust-badges">
+                    <div class="badge">
+                        <i class="ph-fill ph-star"></i>
+                        <div>
+                            <h4>4.8/5 Rating</h4>
+                            <p>189+ Reviews</p>
+                        </div>
+                    </div>
+                    <div class="badge">
+                        <i class="ph-fill ph-check-circle"></i>
+                        <div>
+                            <h4>Premium Setup</h4>
+                            <p>Hygienic & Safe</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image slide-in-right">
+                <!-- Using local assets for guaranteed loading -->
+                <img src="assets/gallery1.png" alt="Salon Interior" class="glass-image">
+                <div class="floating-card glass-card">
+                    <div class="stylist-highlight">
+                        <img src="assets/haircut_1.png" alt="Arhaan">
+                        <div>
+                            <p class="name">Arhaan</p>
+                            <p class="role">Expert Stylist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section alternate-bg">
+        <div class="container">
+            <div class="section-header text-center fade-in-up">
+                <h2 class="section-title">Signature <span class="gold-text">Services</span></h2>
+                <p class="subtitle">Curated treatments for the ultimate transformation</p>
+            </div>
+            
+            <div class="services-grid">
+                <a href="service-haircut.html" class="service-card-link fade-in-up">
+                    <div class="service-card glass-card">
+                        <i class="ph ph-scissors service-icon"></i>
+                        <h3>Haircut & Styling</h3>
+                        <p>Precision cuts tailored to your face shape and personal aesthetic.</p>
+                        <span class="service-link">View Details <i class="ph ph-arrow-right"></i></span>
+                    </div>
+                </a>
+                
+                <a href="service-beard.html" class="service-card-link fade-in-up delay-1">
+                    <div class="service-card glass-card">
+                        <i class="ph ph-scissors service-icon"></i> <!-- Use generic for now -->
+                        <h3>Beard Grooming</h3>
+                        <p>Hot towel shave, neat trim, and stylish modern sculpting.</p>
+                        <span class="service-link">View Details <i class="ph ph-arrow-right"></i></span>
+                    </div>
+                </a>
+                
+                <a href="service-spa.html" class="service-card-link fade-in-up delay-2">
+                    <div class="service-card glass-card">
+                        <i class="ph ph-drop service-icon"></i>
+                        <h3>Hair Spa</h3>
+                        <p>Luxury deep conditioning treatments to restore shine and volume.</p>
+                        <span class="service-link">View Details <i class="ph ph-arrow-right"></i></span>
+                    </div>
+                </a>
+                
+                <a href="service-facial.html" class="service-card-link fade-in-up delay-3">
+                    <div class="service-card glass-card">
+                        <i class="ph ph-sparkle service-icon"></i>
+                        <h3>Facial & Skin Care</h3>
+                        <p>Rejuvenating skin treatments using premium international products.</p>
+                        <span class="service-link">View Details <i class="ph ph-arrow-right"></i></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="section">
+        <div class="container section-grid align-center">
+            <!-- Left Side: Image -->
+            <div class="expertise-image slide-in-left">
+                <div class="expertise-image-wrapper">
+                    <img src="assets/haircut_2.png" 
+                         alt="Stylist Working" 
+                         class="expertise-img"
+                         onerror="this.onerror=null; this.src='assets/hero.png';">
+                    <div class="expertise-overlay"></div>
+                </div>
+            </div>
+            <!-- Right Side: Text -->
+            <div class="expertise-content slide-in-right">
+                <h2 class="section-title">Masterful <span class="gold-text">Expertise</span></h2>
+                <p class="body-text">
+                    Grooming is an art, and our master stylists are true artisans. We combine classic barbering techniques with modern trends to deliver unparalleled precision. Whether it's a sharp fade, a textured crop, or an immaculate beard trim, we ensure every detail is tailored to your unique style.
+                </p>
+                <ul class="expertise-list">
+                    <li><i class="ph-fill ph-scissors gold-text"></i> Precision Haircutting</li>
+                    <li><i class="ph-fill ph-magic-wand gold-text"></i> Modern Styling</li>
+                    <li><i class="ph-fill ph-drop gold-text"></i> Luxury Treatments</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <div class="section-header text-center fade-in-up">
+                <h2 class="section-title">The <span class="gold-text">Aesthetic</span></h2>
+                <p class="subtitle">Glimpses of our transformations and premium space</p>
+            </div>
+            <div class="before-after-container fade-in-up delay-1">
+                <div class="ba-slider" id="baSlider">
+                    <!-- After Image (Background) -->
+                    <img src="assets/facial_1.png" alt="After" class="ba-after">
+                    <!-- Before Image (Foreground) -->
+                    <img src="assets/facial_2.png" alt="Before" class="ba-before" id="baBefore">
+                    <!-- Handle -->
+                    <div class="ba-handle" id="baHandle">
+                        <i class="ph ph-arrows-left-right"></i>
+                    </div>
+                    <div class="ba-labels">
+                        <span class="ba-label-before">Before</span>
+                        <span class="ba-label-after">After</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="gallery-grid fade-in-up delay-2">
+                <div class="gallery-item item-large">
+                    <img src="assets/gallery2.png" alt="Client Transformation">
+                    <div class="gallery-overlay">
+                        <span>Transformations</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/haircut_1.png" alt="Haircut Detail">
+                    <div class="gallery-overlay">
+                        <span>Precision</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/beard_2.png" alt="Stylist Working">
+                    <div class="gallery-overlay">
+                        <span>Expertise</span>
+                    </div>
+                </div>
+                <div class="gallery-item item-wide">
+                    <img src="assets/gallery3.png" alt="Salon Vibes">
+                    <div class="gallery-overlay">
+                        <span>Ambiance</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="section alternate-bg">
+        <div class="container">
+            <div class="section-header text-center fade-in-up">
+                <h2 class="section-title">Client <span class="gold-text">Diaries</span></h2>
+            </div>
+            
+            <div class="reviews-carousel fade-in-up">
+                <div class="review-track" id="reviewTrack">
+                    <!-- Review 1 -->
+                    <div class="review-card glass-card">
+                        <div class="review-stars">
+                            <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                        </div>
+                        <p class="review-text">"Perfect haircut and beard styling. The attention to detail is unmatched in Newtown. Arhaan literally transformed my look."</p>
+                        <p class="review-author">— Rohan D.</p>
+                    </div>
+                    <!-- Review 2 -->
+                    <div class="review-card glass-card">
+                        <div class="review-stars">
+                            <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                        </div>
+                        <p class="review-text">"Excellent staff behaviour and a truly premium feel. The hair spa was incredibly relaxing. Worth every penny!"</p>
+                        <p class="review-author">— Priyanka S.</p>
+                    </div>
+                    <!-- Review 3 -->
+                    <div class="review-card glass-card">
+                        <div class="review-stars">
+                            <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star-half"></i>
+                        </div>
+                        <p class="review-text">"Comfortable and smooth experience. Loved the stylish ambiance and the dark aesthetic of the salon."</p>
+                        <p class="review-author">— Amit K.</p>
+                    </div>
+                </div>
+                <!-- Carousel Controls -->
+                <div class="carousel-controls">
+                    <button id="prevReview" class="control-btn"><i class="ph ph-arrow-left"></i></button>
+                    <div class="dots" id="reviewDots"></div>
+                    <button id="nextReview" class="control-btn"><i class="ph ph-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="section">
+        <div class="container section-grid align-center">
+            <div class="booking-info slide-in-left">
+                <h2 class="section-title">Reserve Your <span class="gold-text">Experience</span></h2>
+                <p class="body-text">Book your appointment now to secure your slot. Walk-ins are welcome, but priority is given to premium reservations.</p>
+                <div class="contact-details mt-4">
+                    <div class="detail-item">
+                        <i class="ph ph-map-pin gold-text"></i>
+                        <p>BE 128, Street 174, Action Area I, Newtown, Kolkata</p>
+                    </div>
+                    <div class="detail-item">
+                        <i class="ph ph-phone gold-text"></i>
+                        <p>+91 81004 89376</p>
+                    </div>
+                    <div class="detail-item">
+                        <i class="ph ph-clock gold-text"></i>
+                        <p>Open Daily • 10:00 AM onwards</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="booking-form-wrapper glass-card slide-in-right">
+                <form id="appointmentForm">
+                    <div class="input-group">
+                        <input type="text" id="name" required placeholder=" ">
+                        <label for="name">Full Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="tel" id="phone" required placeholder=" ">
+                        <label for="phone">Phone Number</label>
+                    </div>
+                    <div class="input-group">
+                        <select id="service" required>
+                            <option value="" disabled selected>Select Service</option>
+                            <option value="haircut">Haircut & Styling</option>
+                            <option value="beard">Beard Grooming</option>
+                            <option value="spa">Hair Spa</option>
+                            <option value="facial">Facial & Skin Care</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <input type="datetime-local" id="datetime" required>
+                    </div>
+                    <button type="submit" class="btn btn-gold w-full glow-effect">Confirm Booking</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h2><span class="gold-text">QavoniX</span> Luxe</h2>
+                <p class="tagline">Luxury Grooming Redefined.<br><span class="footer-subtext">by QavoniX Studio</span></p>
+                <div class="social-icons">
+                    <a href="https://instagram.com" target="_blank"><i class="ph ph-instagram-logo"></i></a>
+                    <a href="https://wa.me/918100489376" target="_blank"><i class="ph ph-whatsapp-logo"></i></a>
+                    <a href="#"><i class="ph ph-facebook-logo"></i></a>
+                </div>
+            </div>
+            <div class="footer-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14736.262854388383!2d88.4554378!3d22.5765664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275355cbea4c7%3A0xc6c764fa58c49e1e!2sAction%20Area%20I%2C%20Newtown%2C%20Kolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1713134234567!5m2!1sen!2sin" width="100%" height="200" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 QavoniX Luxe Unisex Salon by QavoniX Studio. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/918100489376" class="floating-whatsapp" target="_blank">
+        <i class="ph ph-whatsapp-logo"></i>
+    </a>
+
+    <!-- Floating Background Music Toggle -->
+    <button id="bgMusicToggle" class="floating-music">
+        <i class="ph ph-speaker-slash"></i>
+    </button>
+    <audio id="bgMusic" loop>
+        <source src="https://cdn.pixabay.com/download/audio/2022/01/21/audio_31743c58be.mp3?filename=lofi-study-112191.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
