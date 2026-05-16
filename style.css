@@ -1075,3 +1075,26 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
     max-width: 100% !important;
     overflow: hidden;
 }
+.booking-form-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.calendly-inline-widget {
+    width: 100% !important;
+    min-width: 100% !important;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+
+    .booking-form-wrapper {
+        padding: 0 !important;
+    }
+
+    .calendly-inline-widget {
+        height: 950px !important;
+    }
+
+}
