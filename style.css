@@ -1,3 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+}
 /* =========================================
    GLAMOR GOSSIP - PREMIUM CSS
 ========================================= */
@@ -1060,4 +1069,9 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
     .review-text {
         font-size: 1.2rem;
     }
+}
+.calendly-inline-widget {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: hidden;
 }
