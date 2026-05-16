@@ -298,29 +298,16 @@
             </div>
             
             <div class="booking-form-wrapper glass-card slide-in-right">
-                <form id="appointmentForm">
-                    <div class="input-group">
-                        <input type="text" id="name" required placeholder=" ">
-                        <label for="name">Full Name</label>
-                    </div>
-                    <div class="input-group">
-                        <input type="tel" id="phone" required placeholder=" ">
-                        <label for="phone">Phone Number</label>
-                    </div>
-                    <div class="input-group">
-                        <select id="service" required>
-                            <option value="" disabled selected>Select Service</option>
-                            <option value="haircut">Haircut & Styling</option>
-                            <option value="beard">Beard Grooming</option>
-                            <option value="spa">Hair Spa</option>
-                            <option value="facial">Facial & Skin Care</option>
-                        </select>
-                    </div>
-                    <div class="input-group">
-                        <input type="datetime-local" id="datetime" required>
-                    </div>
-                    <button type="submit" class="btn btn-gold w-full glow-effect">Confirm Booking</button>
-                </form>
+               <!-- Calendly inline widget begin -->
+
+<div class="calendly-inline-widget"
+data-url="https://calendly.com/qavonixstudio/30min"
+style="min-width:320px;height:700px;">
+</div>
+
+<script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+<!-- Calendly inline widget end -->
             </div>
         </div>
     </section>
