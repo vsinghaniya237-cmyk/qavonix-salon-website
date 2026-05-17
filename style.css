@@ -1139,3 +1139,55 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
     color: rgba(255,255,255,0.7);
     font-size: 14px;
 }
+.footer {
+    width: 100%;
+    padding: 60px 8%;
+    background: #050505;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    margin-top: 100px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-left h2 {
+    color: #d4af37;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    color: rgba(255,255,255,0.7);
+}
+
+.footer-right {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-right a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-right a:hover {
+    color: #d4af37;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.footer-bottom p {
+    color: rgba(255,255,255,0.6);
+    font-size: 14px;
+}
