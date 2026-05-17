@@ -1248,3 +1248,56 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
     color: rgba(255,255,255,0.6);
     font-size: 14px;
 }
+.footer {
+    width: 100% !important;
+    max-width: 100% !important;
+    background: #050505 !important;
+    padding: 60px 8% 30px !important;
+    margin-top: 100px !important;
+    border-top: 1px solid rgba(255,255,255,0.08) !important;
+    box-sizing: border-box !important;
+}
+
+.footer-top {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    gap: 30px !important;
+    width: 100% !important;
+}
+
+.footer-left h2 {
+    font-size: 40px !important;
+    color: #d4af37 !important;
+    margin-bottom: 10px !important;
+}
+
+.footer-left p {
+    color: rgba(255,255,255,0.7) !important;
+    font-size: 18px !important;
+}
+
+.footer-right {
+    display: flex !important;
+    gap: 25px !important;
+}
+
+.footer-right a {
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 16px !important;
+}
+
+.footer-bottom {
+    width: 100% !important;
+    text-align: center !important;
+    margin-top: 40px !important;
+    padding-top: 20px !important;
+    border-top: 1px solid rgba(255,255,255,0.08) !important;
+}
+
+.footer-bottom p {
+    color: rgba(255,255,255,0.6) !important;
+    font-size: 14px !important;
+}
