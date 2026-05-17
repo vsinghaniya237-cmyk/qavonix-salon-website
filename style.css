@@ -888,6 +888,10 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
     transition: var(--transition);
     animation: pulse 2s infinite;
 }
+.floating-whatsapp i{
+    font-size: 30px;
+    color: white;
+}
 
 .floating-whatsapp:hover {
     transform: scale(1.1);
